@@ -1,12 +1,22 @@
+
 body{
-    margin: 13px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin:12px;
+    
+   
 }
 header{
+    width:40%;
+    height: 30%;
     border: 1px solid black;
     text-align: center;
     padding: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.intro{
+    padding: 5px;
+    text-align: justify;
 }
 .img-container{
     width: 125px;
@@ -15,9 +25,11 @@ header{
     margin:0 auto;
     padding: 15px;
 }
+
 .see-yourself{
     border: 1px solid black;
     padding: 12px;
+    text-decoration: none;
     
 }
 .tim-berners-lee{
@@ -26,6 +38,28 @@ header{
     height: 100%;
     border-radius: 50%;
     border: 3px solid black;
+}
+section{
+     width: 40%;
+    height: 25%;
+    margin:0 auto;
+    margin-top: 15px;
+    padding: 13px;
+    border: 1px solid black;
+    
+   
+}
+
+
+
+
+
+ul{
+    list-style: none;
+    justify-content: space-around;
+     display: flex;
+    
+    
 }
 h1,h2,h4{
     font-family:'Open Sans', sans-serif;
@@ -40,4 +74,16 @@ a{
     display: block;
     margin: 0 auto;
     text-decoration: none;
+}
+.movies{
+    display: flex;
+}
+.film{
+      width: 75px;
+    height: 95px;
+    margin: 10px;
+}
+.summary{
+    text-align: right;
+    align-items: center;
 }
