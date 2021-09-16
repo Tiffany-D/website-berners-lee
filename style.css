@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    width:40%;
+    width:35%;
     height: 30%;
     text-align: center;
     padding: 12px;
@@ -48,7 +48,7 @@ header{
     border: 3px solid #C9CCD5;
 }
 section{
-     width: 40%;
+     width: 35%;
     height: 25%;
     margin:0 auto;
     margin-top: 27px;
@@ -66,14 +66,18 @@ section{
 
 ul{
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
      display: flex;
+     text-align: center;
      margin: 0 auto;
       font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     color: #C9CCD5;
     
     
+}
+li{
+    margin-right: 15px;
 }
 h1,h2,h4{
     font-family:'Open Sans', sans-serif;
@@ -107,4 +111,10 @@ img{
     height: 120px;
     margin-left: 20px;
     display: flex;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+   
 }
