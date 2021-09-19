@@ -61,7 +61,9 @@ section{
 }
 
 
-
+h4{
+    text-align: center;
+}
 
 
 ul{
@@ -109,12 +111,15 @@ a{
 img{
     width: 90px;
     height: 120px;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
 }
 
 article{
     display: flex;
-    justify-content: center;
-   
+
+}
+.paragraph{
+    text-align: justify;
+    margin: 10px;
 }
