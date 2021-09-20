@@ -1,6 +1,5 @@
 
 
-
 $primary-color: #A7BBC7;
 $secondary-color:#fff;
 $orange: #FF6B6B;
@@ -8,11 +7,7 @@ $font-stack: 'Open Sans', sans-serif;
 $border-color: #C9CCD5;
 $darker-color:#536162;
 
-@media (max-width:500px){
-    h1{
-        color: aqua;
-    }
-}
+
 body{
     margin:12px;
     background-color: #E1E8EB;
@@ -68,7 +63,9 @@ button{
     text-decoration: none;
     background-color: $orange;
     border-radius: 3px;
-    
+    &:hover{
+background-color: $darker-color;
+    }
     
 }
 a{
@@ -77,7 +74,9 @@ a{
     text-decoration: none;
     color: aliceblue;
     font-family: $font-stack;
-   
+  &:hover{
+      color: $orange;
+  }
 }
 
 }
