@@ -1,125 +1,144 @@
-
-body{
-    margin:12px;
-    background-color: #E1E8EB;
-   
-   
+@media (max-width: 500px) {
+  h1 {
+    color: aqua;
+  }
 }
 
-header{
-    width:35%;
-    height: 30%;
-    text-align: center;
-    padding: 12px;
-    margin: 0 auto;
-    margin-top: 40px;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 0 4px 2px -2px #A7BBC7;
+body {
+  margin: 12px;
+  background-color: #E1E8EB;
 }
 
-.intro{
-    padding: 5px;
-    text-align: justify;
-}
-.img-container{
-    width: 125px;
-    height: 125px;
-    display: block;
-    margin:0 auto;
-    padding: 15px;
-}
-
-.see-yourself{
-    border: 1px solid #FF6B6B;
-    padding: 9px;
-    font-family: 'Open Sans', sans-serif;;
-    text-decoration: none;
-    background-color: #FF6B6B;
-    border-radius: 3px;
-    
-    
-}
-.tim-berners-lee{
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 3px solid #C9CCD5;
-}
-section{
-     width: 35%;
-    height: 25%;
-    margin:0 auto;
-    margin-top: 27px;
-    padding: 13px;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 0 4px 2px -2px #A7BBC7;
-    
-   
+header {
+  width: 35%;
+  height: 30%;
+  text-align: center;
+  padding: 12px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 2px -2px #A7BBC7;
+          box-shadow: 0 4px 2px -2px #A7BBC7;
 }
 
-
-h4{
-    text-align: center;
+header div {
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
 }
 
-
-ul{
-    list-style: none;
-    justify-content: space-evenly;
-     display: flex;
-     text-align: center;
-     margin: 0 auto;
-      font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    color: #C9CCD5;
-    
-    
-}
-li{
-    margin-right: 15px;
-}
-h1,h2,h4{
-    font-family:'Open Sans', sans-serif;
-    text-align: center;
-}
-h2,h4{
-    color: #536162;
-}
-h1{
-    color: #FF6B6B;
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding: 0;
-    color: #A7BBC7;
-}
-a{
-    display: block;
-    margin: 0 auto;
-    text-decoration: none;
-   
+header img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #C9CCD5;
 }
 
-.first-link{
-    color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
-}
-img{
-    width: 90px;
-    height: 120px;
-    margin-left: 10px;
-    display: flex;
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #FF6B6B;
 }
 
-article{
-    display: flex;
+header h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #536162;
+}
 
+header p {
+  padding: 5px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: #A7BBC7;
 }
-.paragraph{
-    text-align: justify;
-    margin: 10px;
+
+header button {
+  border: 1px solid #FF6B6B;
+  padding: 9px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background-color: #FF6B6B;
+  border-radius: 3px;
 }
+
+header a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  width: 35%;
+  height: 25%;
+  margin: 0 auto;
+  margin-top: 27px;
+  padding: 13px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 2px -2px #A7BBC7;
+          box-shadow: 0 4px 2px -2px #A7BBC7;
+}
+
+section ul {
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #C9CCD5;
+}
+
+section li {
+  margin-right: 15px;
+}
+
+section p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0;
+  color: #A7BBC7;
+}
+
+section h2, section h4 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #536162;
+}
+
+section h4 {
+  text-align: center;
+}
+
+section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section article img {
+  width: 90px;
+  height: 120px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section article .paragraph {
+  text-align: justify;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
