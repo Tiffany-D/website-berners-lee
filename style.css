@@ -1,6 +1,6 @@
 body {
   margin: 12px;
-  background-color: #E1E8EB;
+  background-color: #e1e8eb;
 }
 
 header {
@@ -12,8 +12,8 @@ header {
   margin-top: 40px;
   border-radius: 3px;
   background-color: #fff;
-  -webkit-box-shadow: 0 4px 2px -2px #A7BBC7;
-          box-shadow: 0 4px 2px -2px #A7BBC7;
+  -webkit-box-shadow: 0 4px 2px -2px #a7bbc7;
+          box-shadow: 0 4px 2px -2px #a7bbc7;
 }
 
 header div {
@@ -29,13 +29,13 @@ header img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 3px solid #C9CCD5;
+  border: 3px solid #c9ccd5;
 }
 
 header h1 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #FF6B6B;
+  color: #ff6b6b;
 }
 
 header h2 {
@@ -48,15 +48,15 @@ header p {
   padding: 5px;
   text-align: justify;
   font-family: "Open Sans", sans-serif;
-  color: #A7BBC7;
+  color: #a7bbc7;
 }
 
 header button {
-  border: 1px solid #FF6B6B;
+  border: 1px solid #ff6b6b;
   padding: 9px;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  background-color: #FF6B6B;
+  background-color: #ff6b6b;
   border-radius: 3px;
 }
 
@@ -73,7 +73,14 @@ header a {
 }
 
 header a:hover {
-  color: #FF6B6B;
+  color: #ff6b6b;
+}
+
+@media (min-width: 310px) and (max-width: 1024px) {
+  header {
+    width: 70%;
+    height: 40%;
+  }
 }
 
 section {
@@ -84,8 +91,8 @@ section {
   padding: 13px;
   border-radius: 3px;
   background-color: #fff;
-  -webkit-box-shadow: 0 4px 2px -2px #A7BBC7;
-          box-shadow: 0 4px 2px -2px #A7BBC7;
+  -webkit-box-shadow: 0 4px 2px -2px #a7bbc7;
+          box-shadow: 0 4px 2px -2px #a7bbc7;
 }
 
 section ul {
@@ -100,7 +107,7 @@ section ul {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  color: #C9CCD5;
+  color: #c9ccd5;
 }
 
 section li {
@@ -111,26 +118,28 @@ section p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   padding: 0;
-  color: #A7BBC7;
+  color: #a7bbc7;
 }
 
-section h2, section h4 {
+@media (min-width: 310px) and (max-width: 1024px) {
+  section {
+    width: 70%;
+    height: 40%;
+  }
+}
+
+h2, h4 {
+  text-align: center;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color: #536162;
 }
 
-section h4 {
-  text-align: center;
-}
-
-section article {
+article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-section article img {
+article img {
   width: 90px;
   height: 120px;
   margin-left: 10px;
@@ -139,8 +148,9 @@ section article img {
   display: flex;
 }
 
-section article .paragraph {
+article p {
   text-align: justify;
   margin: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
